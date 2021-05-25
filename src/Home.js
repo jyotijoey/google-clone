@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import "./Home.css"
 import AppsIcon from "@material-ui/icons/Apps"
 import { Avatar } from '@material-ui/core'
+import Search from './Search'
 
 function Home() {
     return (
@@ -23,8 +24,10 @@ function Home() {
             </div>
             <div className="home__body">
 
-            <img src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_2x1.jpg" alt="google logo" />
-
+            <img src="https://lh3.googleusercontent.com/25HHuTlKiQt8wiMAD-2jEVHvXXyJzLKK3Ga0h7Duu3P2jbZjXx9FF17WIPO6gUVsozcjfjpVTd1WbV0P2EhSGkbMoTwsblpOZ_C724sdBHLfxwDrPSTUCA" alt="google logo" />
+            <div className="home__inputContainer">
+                <Search hideButtons/>
+            </div>
             </div>
         </div>
     )
