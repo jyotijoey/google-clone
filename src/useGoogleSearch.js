@@ -21,7 +21,7 @@ const useGoogleSearch= (term) => {
                 
             });
         };
-        fetchData();
+        fetchData(); //dont forget tho call the function to actually run it
         
     }, [term]);
 
